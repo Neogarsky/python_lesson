@@ -29,3 +29,4 @@ for directory, dirs, files in walk(dir):
                 copy(join(directory, file), file_path)
             except SameFileError:
                 break
+                
